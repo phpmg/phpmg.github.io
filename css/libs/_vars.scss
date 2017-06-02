@@ -1,0 +1,127 @@
+// Misc.
+$misc: (
+    max-spotlights: 10,
+    max-features: 10,
+    z-index-base: 10000
+);
+
+// Duration.
+$duration: (
+    transitions: 0.2s,
+    menu: 0.5s,
+    fadein: 3s
+);
+
+// Size.
+$size: (
+    element-height: 2.75em,
+    element-margin: 2em,
+    letter-spacing: 0.075em,
+    letter-spacing-alt: 0.225em
+);
+
+// Font.
+$font: (
+    family: ('Open Sans', Helvetica, sans-serif),
+    family-fixed: ('Courier New', monospace),
+    weight: 400,
+    weight-bold: 600,
+    weight-extrabold: 800
+);
+
+$accent1: #F2F2F2;
+$accent2: #0FC;
+$accent3: #3D5473;
+$accent4: #F21905;
+$accent5: #A60303;
+$accent6: #F23535;
+$accent7: #ffffff;
+
+$white: white;
+$black: black;
+$border: rgba(0, 0, 0, 0.125);
+$border_bg: rgba(255, 255, 255, 0.075);
+$border2: rgba(0, 0, 0, 0.25);
+$border2_bg: rgba(255, 255, 255, 0.2);
+
+// Palette.
+$palette: (
+    bg: #2e3842,
+    fg: $white,
+    fg-bold: $white,
+    fg-light: rgba(255, 255, 255, 0.5),
+    border: $white,
+    border-bg: rgba(144, 144, 144, 0.25),
+    border2: $white,
+    border2-bg: rgba(144, 144, 144, 0.5),
+    accent1: (
+        bg: $accent1,
+        fg-bold: $white,
+        fg: mix($accent1, $white, 25%),
+        fg-light: mix($accent1, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent2: (
+        bg: $accent2,
+        fg-bold: $white,
+        fg: mix($accent2, $white, 25%),
+        fg-light: mix($accent2, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent3: (
+        bg: $accent3,
+        fg-bold: $white,
+        fg: mix($accent3, $white, 25%),
+        fg-light: mix($accent3, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent4: (
+        bg: $accent4,
+        fg-bold: $white,
+        fg: mix($accent4, $white, 25%),
+        fg-light: mix($accent4, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent5: (
+        bg: $accent5,
+        fg-bold: $white,
+        fg: mix($accent5, $white, 25%),
+        fg-light: mix($accent5, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent6: (
+        bg: $accent6,
+        fg-bold: $white,
+        fg: mix($accent6, $white, 25%),
+        fg-light: mix($accent6, $white, 40%),
+        border: $border,
+        border-bg: $border_bg,
+        border2: $border2,
+        border2-bg: $border2_bg
+    ),
+    accent7: (
+        bg: $white,
+        fg-bold: #2E3842,
+        fg: #4E4852,
+        fg-light: #8E8892,
+        border: #dfdfdf,
+        border-bg: rgba(0, 0, 0, 0.0375),
+        border2: #bfbfbf,
+        border2-bg: rgba(0, 0, 0, 0.1)
+    )
+);

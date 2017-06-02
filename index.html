@@ -1,9 +1,246 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CC-BY 3.0 license (html5up.net/license)
+-->
+
 <head>
-	<title>PHPMG</title>
-	<meta http-equiv="refresh" content="0;url=http://phpmg.com"> 
-</head>
-<body>
+    <title>Home || PHPMG - Grupo de Desenvolvedores PHP de Minas Gerais</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <meta name="robots" content="noindex, follow">
+    
+    <link rel="stylesheet" href="/css/main.css">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="/images/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#0074c4">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="msapplication-config" content="/images/browserconfig.xml">
+    <meta name="theme-color" content="#505B93">
+
+    <script src="//use.fontawesome.com/406d7ed374.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Feed de atividades do PHPMG"/>
+    <style>
+        /** quick fix because bootstrap <pre> has a background-color. */
+        pre code {
+            background-color: inherit;
+        }
+    </style>
+        </head>
+<body class="landing">
+
+<div id="page-wrapper">
+
+    <header id="header" class="alt">
+        <h1><a href="/">PHPMG</a></h1>
+        <header id="header" class="alt">
+    <h1>
+        <a href="/">
+            <img src="/images/logo.png" alt="Logo PHPMG"/> PHPMG
+        </a>
+    </h1>
+
+                                                                                                                                                                                                                                                                </header>
+    </header>
+
+            <!-- Banner de apresentação -->
+<section id="banner" class="random-bg">
+    <div class="inner">
+        <img src="/images/logo.png" alt="Logo do PHPMG" class="logo">
+        <h2>PHPMG</h2>
+        <p>Grupo de Desenvolvedores PHP de Minas Gerais</p>
+
+        <ul class="actions">
+            <li>
+                <a href="#canais" class="button special">Veja como participar</a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<!-- Último post -->
+                                                                                    
+                            
+            
+                                                
+                                                                                                                                                            
+<!-- TODO: Two / Quem somos? -->
+<!--
+<section id="two" class="wrapper alt style2">
+    <section class="spotlight">
+        <div class="image"><img src="images/pic03.jpg" alt="" /></div>
+        <div class="content">
+            <h2>Augue eleifend aliquet<br />
+                sed condimentum</h2>
+            <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+        </div>
+    </section>
+</section>
+-->
+
+<!-- TODO: talvez aqui fique a lista dos nossos canais de contato? -->
+<a name="canais"></a>
+<section id="three" class="wrapper style3 special">
+    <div class="inner">
+        <header class="major">
+            <h2>Nossos canais</h2>
+
+            <p>
+                Seja para tirar uma dúvida relacionada, se inteirar das novidades ou conhecer a comunidade de PHP de
+                Minas Gerais, veja os canais nos quais podemos ser encontrados:
+            </p>
+        </header>
+
+        <ul class="features">
+            <li class="icon fa-slack">
+                <h3><a href="http://slack.phpmg.com" target="_blank">Slack</a></h3>
+
+                <p>
+                    Este é o local onde as discussões mais cotidianas acontecem.
+                    Amizades são fortalecidas aqui, e eventualmente, alguns assuntos polêmicos aparecem
+                    <i class="fa fa-hand-peace-o"></i>
+                </p>
+            </li>
+
+            <li class="icon fa-comments-o">
+                <h3><a href="https://groups.google.com/forum/#!forum/phpmg" target="_blank">Lista de emails</a></h3>
+
+                <p>
+                    Onde o grupo nasceu. A interação é pouca, mas ainda acontece.
+                </p>
+            </li>
+
+            <li class="icon fa-meetup">
+                <h3><a href="https://meetup.com/PHP-MG" target="_blank">MeetUp.com</a></h3>
+
+                <p>
+                    Na plataforma do MeetUp nós divulgamos <i>todos</i> os eventos do grupo. É o local para acompanhar
+                    quando serão os próximos eventos e encontros.
+                </p>
+            </li>
+
+                            
+                            
+            <li class="icon fa-twitter">
+                <h3><a href="https://twitter.com/phpmg">Twitter</a></h3>
+
+                <p>Algumas novidades são postadas aqui.</p>
+            </li>
+
+            <li class="icon fa-facebook">
+                <h3><a href="https://www.facebook.com/elephants.mineiros/">Facebook</a></h3>
+
+                <p>
+                    Temos uma página e um grupo. O grupo já foi mais ativo, mas acabou perdendo pro Slack.
+                </p>
+            </li>
+
+            <li class="icon fa-github">
+                <h3><a href="https://github.com/PHPMG" target="_blank">GitHub</a></h3>
+
+                <p>
+                    Alguns projetos de múltiplas mãos que nasceram sob o teto do PHPMG ficam organizados no GitHub -
+                    incluindo este próprio site!
+                </p>
+            </li>
+
+                            
+                                                                        </ul>
+    </div>
+</section>
+
+<!-- CTA -->
+<section id="cta" class="wrapper style4">
+    <div class="inner">
+        <header>
+            <h2>Você já participa do grupo?</h2>
+
+                                                                                </header>
+
+        <ul class="actions vertical">
+            <li>
+                <a target="_blank" href="http://slack.phpmg.com" class="button fit special icon fa-slack">Converse</a>
+            </li>
+
+                                        
+            <li>
+                <a target="_blank" href="https://meetup.com/PHP-MG" class="button fit icon fa-handshake-o">Participe</a>
+            </li>
+        </ul>
+    </div>
+</section>    
+    <footer id="footer">
+    <ul class="icons fa-2x">
+        <li>
+            <a target="_blank" href="http://slack.phpmg.com" title="Fale conosco no Slack"
+               class="icon fa-2x fa-slack"><span class="label">Slack</span></a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://groups.google.com/forum/#!forum/phpmg" title="Discuta ideias no Google Groups"
+               class="icon fa-2x fa-comments-o"><span class="label">Google Groups</span></a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://meetup.com/PHP-MG" title="Encontre-nos pelo MeetUp"
+               class="icon fa-2x fa-meetup"><span class="label">MeetUp</span></a>
+        </li>
+
+        <li>|</li>
+
+                                           
+        <li>
+            <a target="_blank" href="https://github.com/PHPMG" title="Nosso código, aberto no GitHub"
+               class="icon fa-2x fa-github-alt"><span class="label">GitHub</span></a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://twitter.com/phpmg" title="Siga-nos no Twitter"
+               class="icon fa-2x fa-twitter"><span class="label">Twitter</span></a>
+        </li>
+
+        <li>
+            <a target="_blank" href="https://www.facebook.com/elephants.mineiros/" title="Acompanhe a gente no Facebook"
+               class="icon fa-2x fa-facebook"><span class="label">Facebook</span></a>
+        </li>
+
+                                               </ul>
+
+    <ul class="copyright">
+        <li>&copy; 2017 PHPMG</li>
+
+        <li>
+            Template: <a href="http://html5up.net">HTML5 UP</a>
+        </li>
+    </ul>
+</footer>
+
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script> <!-- FIXME: podemos migrar pro 2? 3? -->
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<script src="/js/main.js"></script>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+</div>
+
 </body>
 </html>
